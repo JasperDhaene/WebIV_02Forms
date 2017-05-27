@@ -12,18 +12,18 @@
         ${account.balance}<br>
         ${account.percent}<br><br>
         Spring:<br> 
-        <!--
+        
         <spring:bind path="account.balance">${status.value}</spring:bind>
         <br>
         <spring:bind path="account.percent">${status.value}</spring:bind>
-        -->
+        
         <br><br> 
                 
         JSTL:<br>
-        <!--
+        
         <fmt:formatNumber value="${account.balance2}" pattern = "#,##0.00"/>
         <br>
         <fmt:formatNumber value="${account.percent2}" type="percent"/>
-         -->
+        
         </body>
 </html>

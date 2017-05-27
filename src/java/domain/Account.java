@@ -5,10 +5,10 @@ import org.springframework.format.annotation.NumberFormat;
 
 public class Account {
 
-    //@NumberFormat(pattern="#,##0.00")
+    @NumberFormat(pattern="#,##0.00")
     private BigDecimal balance = new BigDecimal("20003000.2599");
     
-    //@NumberFormat(style=NumberFormat.Style.PERCENT)
+    @NumberFormat(style=NumberFormat.Style.PERCENT)
     private double percent = 0.25;
     
     private BigDecimal balance2;
