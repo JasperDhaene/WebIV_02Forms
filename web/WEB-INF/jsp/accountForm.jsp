@@ -17,19 +17,29 @@
         <form:form method="POST" action="account.htm" modelAttribute="account">
 
                 <p><label>Balance (Spring):</label>
-                    <form:input path="balance" size = "20"/>&nbsp;
+                    <form:input path="balance" size = "30"/>&nbsp;
                 </p>
                 <p class="note">Note: Door de NumberFormat annotatie wordt dit meteen geformateerd weergegeven en zal dus ook in deze vorm gesubmit worden.<br>
                     Om beter het verschil tussen EL, Spring en JSTL te zien op de volgende pagina, verander bovenstaande terug in originele 20003000.2599
                 </p>
                 <p>
                     <label>Percent (Spring):</label>
-                    <form:input path="percent" size = "20"/>&nbsp;
+                    <form:input path="percent" size = "30"/>&nbsp;
+                </p>
+                
+                <p>
+                    <label>Date(with style attribute):</label>
+                    <form:input path="dateStyle" size = "30"/>&nbsp;
+                </p>
+                
+                <p>
+                    <label>Date(with pattern attribute):</label>
+                    <form:input path="datePattern" size = "30"/>&nbsp;
                 </p>
 
                 <p>
                     <label>Email:</label>
-                    <form:input path="email" size = "20"/>&nbsp;
+                    <form:input path="email" size = "30"/>&nbsp;
                 </p>
 
                 <p>
